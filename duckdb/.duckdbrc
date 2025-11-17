@@ -1,0 +1,27 @@
+.utf8
+.changes on
+.highlight_results on
+.maxwidth 120
+.maxrows 30
+
+.highlight_colors keyword green
+.highlight_colors numeric_constant white
+.highlight_colors numeric_value yellow
+.highlight_colors string_constant magenta
+.highlight_colors string_value green
+.highlight_colors null_value white
+
+.highlight_colors column_name blue
+.highlight_colors column_type blue
+.highlight_colors footer cyan
+
+.highlight_colors line_indicator standard
+.highlight_colors layout standard
+.highlight_colors error red
+
+# —————————————————————————————————
+# available highlight tokens
+#   error, keyword, numeric_constant, string_constant, line_indicator, column_name, column_type,
+#   numeric_value, string_value, temporal_value, null_value, footer, layout, none
+# available colors
+#   standard, red, yellow, green, gray, blue, magenta, cyan, white
